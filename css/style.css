@@ -1,0 +1,361 @@
+/* code CSS */
+
+/* code chung */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: auto;
+	 overflow-x: hidden;  
+}
+nav{
+	height: 64px;
+	background-color: white;
+	border-bottom: 2px solid #cfcfcf;
+}
+ div.menu{
+	float: right;
+
+}
+ div.menu ul{
+	text-align: center;
+	height: 64px;
+	list-style: none;
+
+}
+ div.menu ul li{
+	padding: 24px 32px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+div.menu ul li a{
+	 text-transform: uppercase; 
+	text-decoration: none;	
+	font-size: 15px;
+
+}
+ div.menu ul li #congviec{
+	color: #dd5347;
+}
+ div.menu ul li.dn{
+	background: #dd5347;
+	height: 63px;
+}
+ div.menu ul li > #dangnhap{
+	
+	color: white;
+	
+}
+ div.menu ul li #batdau{
+	color: gray;
+}
+section{
+	width: 100%;
+	height: 245px;
+}
+section div.anh{
+	background:cover;
+
+}
+section div.nendo{
+/* 	margin-top: 0px; */
+	background: #dd5347;
+	width: 100%;
+	height: 185px;
+	/* line-height: 186px; */
+}
+section div.nendo div.bd a{
+/* 	display: block; */
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+	border: 1px solid white;
+	padding: 28px 86px;
+	 margin:53px 80px 53px 70px; 
+    width: 20%;
+    text-decoration: none;
+	display: inline-block;
+	float: left;
+ }   
+
+section div.nendo p{ 
+	/* margin-left: 68px; */
+	color: white;
+	/* display: inline-block; */
+	width: 1200px;
+	height: ;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 48px;
+	
+	padding-top: 20px;
+/* 	font-style:light; */
+}
+section div.chu{
+	margin-top: 137px;
+	text-align: center;
+	width: 100%;
+	height:206px;
+	font-family: 'Roboto', sans-serif;
+	 padding-bottom:75px!important;
+	
+}
+section div.chu p.sudung{
+	font-weight: 300;
+	color: #333333;
+	font-size: 40px;
+}
+section div.chu p.nhan{
+	margin-top: 10px;
+	width: 460px;
+	color: #333333;
+	font-size: 16px;
+    font-weight: 300;
+    margin-left: 444.5px;
+ 
+ 
+}
+section div.noidung{
+	
+}  
+div.row div.card{
+	width: 16.5rem;
+	height: 395px;
+	color: #333333;
+	font-weight: 100;
+}
+div.card-body > h5{
+
+	color: black;
+	font-weight: 200;
+}
+footer{
+ 	margin-top: 1330px; 
+	width: 100%;
+	height: 257px;
+	padding-top: 80px;
+	background: #f9f9f9; 
+
+}
+ footer div.mau{
+	
+	 margin-bottom: 25px; 
+} 
+footer div.mau > div.do ,footer div.mau>div.datroi,footer div.mau>div.vang ,footer div.mau>div.lacay{
+	border-top: 2px solid;
+	width: 34px;
+	display: inline-block;
+	padding-right: 0;
+	/* background-color: #0089fa; */
+}
+footer div.mau > div.do{
+	border-top-color: #0089fa;
+}
+footer div.mau > div.datroi{
+	border-top-color: #ff002b;
+}
+footer div.mau > div.vang{
+	border-top-color: #ffa900;
+}
+footer div.mau > div.lacay{
+	border-top-color: #00a753;
+}
+ footer div.icon {
+	margin-top: 20px; 
+	width: 100%;
+	height: 122px;
+	display: block;
+	
+}
+footer div.icon a i.icon1{
+	color: gray;
+	padding-right: 8px;
+}
+div.lienket {
+	margin-top: 10px;
+	width: 100%;
+	height: 50px;
+
+	/* background-color: #f5f5f5; */
+}
+div.icon p a{
+	color: #0000ee;
+	font-size: 14px;
+	margin-right: 5px;
+	text-decoration: none;
+}
+div.menu_lienket {
+	margin-left: 0;
+}
+div.menu_lienket ul{
+	list-style: none;
+	padding-top: 0;
+	margin-right:0;
+
+}
+div.menu_lienket ul li{
+	font-family: Arial;
+	height: 20px; 
+	padding-top: 0;
+	margin-left: 0;
+
+}
+div.menu_lienket ul li a{
+	/* text-transform: uppercase; */
+	color: #0000ee;
+	text-decoration: none;
+	font-size: 11px;
+	padding-right:8px;
+}
+/* footer div.tieng{
+	margin-top: 75px;
+	
+} */ 
+div.tieng{
+	padding-right: 0px;
+}
+div.tieng a img{
+	width: 15px;
+	height: 15px;
+}
+div.tieng select{
+	width: 290px;
+	height: 20px;
+	font-size: 12px;
+}
+
+/* responsive */
+@media only screen and (max-width:576px){
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	nav{
+		width: 100%;
+		border-top: 2px solid #cfcfcf;
+		height: 96px;
+	}
+	section div.nendo{
+	text-align: center;
+	background: #dd5347;
+	width: 100%;
+	height: 242px;
+	/* line-height: 186px; */
+	}
+	section div.nendo div.bd > a{
+/* 	display: block; */
+	
+	margin:25px 0px 50px 110px; 
+	padding:20px 40px;
+    width: 262px;
+    height:60px;
+    
+	float: left;
+ } 
+	section div.nendo p{
+	 
+	margin-left: -380px;
+	color: white;
+	display: inline-block;
+	width: 400px;
+	height: auto;
+	font-family: 'Roboto', sans-serif;
+	margin-top:70px;
+	font-weight: 300;
+	font-size: 30px;
+	
+/* 	font-style:light; */
+	}
+	section div.chu{
+	margin-top: 328px;
+	text-align: center;
+	width: 500px;
+	height:206px;
+	font-family: 'Roboto', sans-serif;
+	 padding-bottom:75px!important;
+	
+	}
+	section div.chu p.sudung{
+		font-weight: 300;
+		color: #333333;
+	/* 	font-size: 40px; */
+		width:380px;
+		margin-left:50px;
+		font-size:32px;
+	}
+	section div.chu p.nhan{
+
+		color: #333333;
+		font-size: 16px;
+	    font-weight: 300;
+		
+	 	width:380px;
+		 margin-left:50px; 
+	 	top: 30px;
+	 	/* line-height: 206px; */
+	} 
+	div.noidung{
+	margin-top:83px;
+	text-align:center;
+	margin-left:90px; 
+	}
+	div.row div.card{
+	margin-bottom:30px;
+	}
+	footer{
+	margin-top: 2785px;  
+	width: 100%;
+	height: 257px;
+	padding-top: 80px;
+	background: #f9f9f9; 
+
+	}
+	footer div.mau{
+		
+		 padding-bottom: 30px; 
+	} 
+		 footer div.icon {
+		margin-top: 20px; 
+		width: 100%;
+		height: 122px;
+		display: block;
+		
+	}
+	footer div.icon a {
+	color: gray;
+	padding-right: 15px;
+}
+	footer div.icon a i.icon1{
+		width: 20px;
+	}
+
+	div.icon p a{
+		color: #0000ee;
+		font-size: 12px;
+		margin-right: 0px;
+	}
+	div.lienket {
+		margin-top: 0;
+		width: 100%;
+		height: 50px;
+		/* background-color: #f5f5f5; */
+	}
+	div.tieng{
+	float:left; 
+		margin:0px;
+	margin-bottom:15px;
+	}
+
+	div.tieng select{
+		padding-left:0px;
+		width: 290px;
+		height: 20px;
+		font-size: 12px;
+	}
+	div.div_cuoi{
+		float: left;
+	}
+}
